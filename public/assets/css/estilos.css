@@ -1,0 +1,159 @@
+/*Menu */
+.nav-link {
+    font-family: 'Rosario', sans-serif !important;
+    padding: 5px 20px !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.5);
+    border-top: 2px black solid;
+    margin-top: -17px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/*FOOTER SECCION CSS*/
+
+footer{
+    font-family: 'Rancho', cursive;
+    font-size: 20px;
+}
+
+.container-footer{
+    width: 100%;  
+    background:white;
+    border: solid 1px black;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    width: 100%; 
+    height: 100%;
+    color: black;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+ 
+/*Botones paginacion tienda*/
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: white;
+    background-color: #F89CA4;
+    border-radius: 45%;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 23px;
+    border: 1px #F89CA4 solid;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
+/*Formulario de contacto*/
+
+.contacto{
+    display: flex;
+    padding: 25px;
+}
+textarea.form-control {
+    height: 229px;
+}
+#form-contact{
+    border: 1px black solid;
+    padding: 30px;
+}
+#titulo-form{
+    width: 100%;
+}
+.inputs{
+    border-bottom: 2px black solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.icons:hover{
+
+    cursor: pointer;
+}
+.card-border{
+    border: none;
+        border-right: 1px solid black;
+        padding-top: 35px;
+}
+
+.btn-primary {
+    color: #fff;
+    font-weight: 600;
+    background-color: #F89DB4;
+    border-color: #F89DB4;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+}
+.fondo{
+    width: 65%;
+    background: #F89DB4;
+    height: 500px;
+}
+@media screen and (max-width: 1100px){
+    
+  .fondo{
+      display: none;
+  }
+  .card-border{
+    border: none;
+        padding-top: 35px;
+}
+
+}
+/*Nosotros*/
+#img-nosotros {
+    margin: 0 auto;
+    width: 600px;
+}
+.text-about{
+    padding: 20px;
+    
+}
+.text-primary {
+    color: #FFA0BD !important;
+}
+
+/*Animacion productos*/
+.card-animate:hover{
+        width: 105%;
+        transition: 1.5s;
+        cursor: pointer;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    border: none;
+}
